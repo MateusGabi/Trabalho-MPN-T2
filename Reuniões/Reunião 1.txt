@@ -1,0 +1,12 @@
+03.02.2015
+
+Pauta:
+- Discutir os principais processos da empresa (Venda, Serviços e Reposição de Estoque) juntamente com o representante da empresa.
+
+Encaminhamentos:
+- Todos		: 	Estudar Git e Criar conta no Git;
+- Gian Lucas	:	Desenvolver os modelos de cada processo de acordo com o que foi esclarecido pelo representante;
+- José Augusto	:	Desenvolver os modelos de cada processo de acordo com o que foi esclarecido pelo representante;
+- Jonathan	:	Desenvolver os modelos de cada processo de acordo com o que foi esclarecido pelo representante;
+- Mateus Gabi	:	Desenvolver os modelos de cada processo de acordo com o que foi esclarecido pelo representante;
+- Nicholas	:	Desenvolver os modelos de cada processo de acordo com o que foi esclarecido pelo representante;
