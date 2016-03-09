@@ -1,0 +1,24 @@
+Data: 07.03.16 / 16:40
+
+Local: Multiuso
+
+Participantes:
+
+BRUNO GONCALVES MECCA
+ERICO BRUNO CAMARGO
+GIAN LUCAS SILVA DA FONSECA
+JONATHAN HEIDY KINJO
+JOSE AUGUSTO SOTTILI REIS
+MATEUS BORGES OLIVEIRA GASPIO DE ARAUJO
+MATEUS GABI MOREIRA
+MATHEUS FONTES DA GAMA
+NICHOLAS PEDROSO PETERLE
+
+Resultados: Fase 1 Concluída. Foi decidido o começo das fases 2 e 3 em paralelo.
+
+Encaminhamentos (para 12.03.16):
+
+Bruno					Modelo AS-IS BPMN dos Processos de Venda, Instalação e Manutenção
+Mateus Gabi/Nicholas/Mateus Fontes	Análise do Processo de Vendas em busca problemas para serem solucionados .
+Gian/Mateus Borges/Victor		Análise do Processo de Instalação em busca problemas para serem solucionados.
+Erico/Jonathan/José			Análise do Processo de Manutenção em busca problemas para serem solucionados.
