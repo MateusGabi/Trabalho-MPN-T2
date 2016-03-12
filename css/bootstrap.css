@@ -1082,11 +1082,13 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #6D6D6D;
+  background-color: #ffe;  
+  text-align: center;
+  font-family: Georgia;
 }
 input,
 button,
@@ -4505,6 +4507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
+  /*color: #DFF0D8;*/
   background-color: transparent;
 }
 .navbar-default .navbar-text {
