@@ -16,6 +16,15 @@ section .title {
     margin-bottom: 5%;
 }
 
+section#team img:hover {
+    zoom: 1.1;
+    border: 3px solid;
+    cursor: pointer;
+    -webkit-transition: ease 2s 3s 3s;
+    -moz-transition: ease 2s 3s 3s;
+    transition: ease 2s 3s 3s;
+}
+
 footer {
     background: #332D2D;
     padding: 1%;
