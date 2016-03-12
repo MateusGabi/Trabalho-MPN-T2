@@ -1,6 +1,0 @@
-# Nome dos Arquivos/Documentos Gerados
-########################################
-
-Existe uma pasta para cada fase dentro do diretório 'Documentos Gerados'
-
-Exemplo: BPMN-v1_MateusGabi

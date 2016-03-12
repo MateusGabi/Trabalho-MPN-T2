@@ -1,9 +1,0 @@
-Possíveis Problemas no Processo de Vendas
-
-#1 Padrão não disponível; (difícil de ocorrer, pois o produto é muito procurado e o estoque esta sempre cheio)
-#2 Endereço de entrega errado.
-
-Soluções
-
-Para o problema #1: Aprimoramento do Gerenciamento de Estoque, antecipação ao mercado.
-Para o problema #2: Quando gerar ordem de serviço, o cliente deve verificar as informações e assinar as duas vias (Cliente e Montador).
