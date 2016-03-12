@@ -23,6 +23,11 @@ section#team img:hover {
     -webkit-transition: ease 2s 3s 3s;
     -moz-transition: ease 2s 3s 3s;
     transition: ease 2s 3s 3s;
+    opacity: 1;
+}
+
+section#team img {
+    opacity: 0.9;
 }
 
 footer {
