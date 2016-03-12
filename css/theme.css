@@ -16,10 +16,6 @@ section .title {
     margin-bottom: 5%;
 }
 
-section a.btn {
-    font-size: 18px; 
-}
-
 footer {
     background: #332D2D;
     padding: 1%;
