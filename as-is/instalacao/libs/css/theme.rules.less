@@ -1,0 +1,218 @@
+/*******************************************************************************
+    @theme: Export Process Viewer
+    @version: 1.0.0
+    @author: UX TEAM at Bizagi
+    @description: Custom theme CSS rules for Process Viewer
+********************************************************************************/
+
+/* ==========================================================================
+   Export process viewer components
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+
+::-webkit-input-placeholder { color: @navigation-link; }
+
+::-moz-placeholder { color: @navigation-link; }
+
+:-ms-input-placeholder { color: @navigation-link; }
+
+#app-container-view { background: lighten(@navigation, 5%); }
+
+.ui-tooltip.biz-ex-tooltip,
+.ui-tooltip.biz-ex-tooltip-nav {
+    background: @content;
+    color: @content-text;
+}
+
+.ui-tooltip.biz-ex-tooltip:after { border-left-color: @content; }
+
+.ui-tooltip.biz-ex-tooltip-nav:after { border-right-color: @content; }
+
+.biz-gradien-scroll {
+    background: -webkit-linear-gradient(top, transparent 0%, darken(@navigation, 10%) 100%);
+    background:    -moz-linear-gradient(top, transparent 0%, darken(@navigation, 10%) 100%);
+    background: linear-gradient(to bottom, transparent 0%, darken(@navigation, 10%) 100%);
+}
+
+/* Header
+   ========================================================================== */
+
+.biz-ex-header-view {
+    border-bottom-color: @header-border;
+    a {
+        color: @header-link;
+        &:hover { color: darken(@header-link, 5%); }
+    }
+}
+
+.biz-ex-logo {
+    .gradient(darken(@header, 2%), @header);
+    border-right-color: @header-border;
+    border-bottom-color: @header-border;
+}
+
+.biz-ex-top-nav {
+    .gradient(darken(@header, 4%), darken(@header, 6%));
+}
+
+.biz-ex-back-process.biz-ex-navigate {
+    border-color: @header-border;
+    background: transparent;
+}
+
+.biz-ex-title-diagram { color: @header-link; }
+
+/* Navigation sidebar
+   ========================================================================== */
+
+#sidebar,
+.biz-ex-navigation-left { background: darken(@navigation, 5%); }
+
+.biz-ex-navigation-left { border-right-color: @navigation-border; }
+
+.biz-ex-search-input,
+.biz-ex-icon-search { background-color: darken(@navigation, 10%); }
+
+.biz-ex-search-input { color: @navigation-link; }
+
+.nav-bar {
+    border-top-color: @navigation-border;
+    .biz-ex-sub-page a { border-bottom-color: @navigation-border; }
+    .biz-ex-sub-page.active { background: fade(@navigation-link, 25%); }
+    a {
+        color: @navigation-link;
+        &:hover {
+            background: darken(@navigation, 10%);
+            color: darken(@navigation-link, 5%);
+        }
+    }
+}
+
+.biz-ex-active.active > a {
+    border-top-color: @navigation-border !important;
+    color: darken(@navigation-link, 40%);
+}
+
+.biz-ex-ind-container { border-right-color: @navigation-border; }
+
+/* Search
+   ========================================================================== */
+
+.biz-ex-search-options {
+    box-shadow: 0 1px 1px darken(@content, 25%);
+    background: fade(@content, 90%);
+}
+
+.biz-ex-search-options:after {
+    border-bottom-color: fade(@content, 90%);
+}
+
+.ui-autocomplete {
+    box-shadow: 0 1px 1px darken(@content, 25%);
+    background: fade(@content, 90%);
+}
+
+.biz-ex-result-name,
+.biz-ex-result-container {
+    color: @content-text !important;
+}
+
+.biz-ex-search-option { color: @navigation-link; }
+
+.biz-ex-search-option.biz-ex-active { color: @content-text; }
+
+/* Content
+   ========================================================================== */
+
+.biz-ex-diagram-data { background: @content; }
+
+.no-touch .bix-ex-figure-panel {
+    border-color: @content-border;
+    background: @content;
+}
+
+h1, h2, h3, h4, h5, h6,
+.biz-ex-diagram-desc-container { color: @content-text; }
+
+.biz-ex-img,
+.biz-ex-diagram-desc:last-child { border-color: lighten(@content-border, 25%); }
+
+.biz-ex-expand-button-span {
+    border-color: @navigation-border;
+    background: @content;
+}
+
+/* Modal window
+   ========================================================================== */
+
+.reveal-modal { border-color: @content-border }
+
+.biz-ex-dialog-header { background: lighten(@header, 25%); }
+
+.biz-ex-dialog-details > dt, 
+.biz-ex-dialog-details > dd,
+.biz-ex-dialog-properties .biz-ex-dialog-process-title,
+.biz-ex-performers-list-as-contact span,
+.biz-ex-performers-list-as-contact span:nth-child(even) { color: @content-text; }
+
+.biz-ex-dialog-line { border-color: @content-border; }
+
+.biz-ex-performer-tag { background: darken(@content, 10%); }
+
+.biz-ex-dialog-content.biz-ex-dialog-properties {
+    bottom: 4px;
+    border-top-color: @content-border;
+}
+
+.alert-box {
+    background: darken(@content, 10%) !important;
+    color: @content-text;
+}
+
+/* GUID list
+   ========================================================================== */
+
+.biz-ex-guid-wrapper { 
+    border-color: @content-border;
+    background: @content;
+    color: @content-text;
+}
+
+.biz-ex-guid-img { border-color: lighten(@content-border, 25%); }
+
+/* Zoom
+   ========================================================================== */
+
+.zoom-hotspot:hover {
+    border-color: transparent;
+    background-color: fade(@navigation, 50%);
+}
+
+.zoom-pane-preview {
+    border-color: @header-border; 
+}
+
+.zoom-pane-preview .zoom-pane-square {
+    border-color: @navigation-border;
+    background: fade(@navigation, 50%);
+}
+
+.zoom-pane-preview .zoom-pane-square.ui-draggable-dragging {
+    border-color: @header-border;
+    background: fade(@header, 50%);
+}
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+.gradient(@start: #EEE, @stop: #FFF) {
+    background: @start;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, @stop), color-stop(100%, @start));
+    background-image: -webkit-linear-gradient(@stop, @start);
+    background-image: -moz-linear-gradient(@stop, @start);
+    background-image: -o-linear-gradient(@stop, @start);
+    background-image: linear-gradient(@stop, @start);
+}
