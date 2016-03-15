@@ -17,8 +17,8 @@ section .title {
 }
 
 section#team img:hover {
-    zoom: 1.1;
-    border: 3px solid;
+    /*zoom: 1.1;*/
+    border: 2px solid;
     cursor: pointer;
     -webkit-transition: ease 2s 3s 3s;
     -moz-transition: ease 2s 3s 3s;
@@ -27,7 +27,7 @@ section#team img:hover {
 }
 
 section#team img {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 footer {
