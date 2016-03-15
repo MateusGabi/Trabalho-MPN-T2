@@ -1,0 +1,39 @@
+Data: 14.03.16 / 16:30
+
+Local: Multiuso
+
+Participantes:
+
+BRUNO GONCALVES MECCA
+GIAN LUCAS SILVA DA FONSECA
+JONATHAN HEIDY KINJO
+JOSE AUGUSTO SOTTILI REIS
+MATEUS BORGES OLIVEIRA GASPIO DE ARAUJO
+MATEUS GABI MOREIRA
+MATHEUS FONTES DA GAMA
+VICTOR LUCAS LOPES SILVA;
+
+Resultados:
+
+Bruno...................................Modelo AS-IS BPMN dos Processos de Venda, Instalação e Manutenção
+Mateus Gabi/Nicholas/Matheus Fontes.....Análise do Processo de Vendas em busca problemas para serem solucionados .
+Gian/Mateus Borges/Victor...............Análise do Processo de Instalação em busca problemas para serem solucionados.
+Erico/Jonathan/José.....................[Falta submeter no repositório] Análise do Processo de Manutenção em busca problemas para serem solucionados.
+Jonathan................................Bug no gráfico de bolha resolvido. Falta validar com o professor. 
+
+Encaminhamentos (para 16.03.16):
+
+Matheus Fontes..........................Otimizar e redigir a Análise Qualitativa do Processo de Vendas.
+Gian Lucas..............................Otimizar e redigir a Análise Qualitativa do Processo de Instalação.
+José Augusto............................Otimizar e redigir a Análise Qualitativa do Processo de Manutenção.
+
+Encaminhamentos (para 19.03.16):
+
+Victor..................................Fazer o modelo TO-BE do processo de Vendas.
+Bruno Mecca.............................Fazer o modelo TO-BE do processo de Instalação.
+Mateus Borges...........................Fazer o modelo TO-BE do processo de Manutenção.
+
+Érico...................................Validar processos.
+Jonathan/Nicholas/Mateus Gabi...........Facilitar o desenvolvimento dos artefatos.
+
+
