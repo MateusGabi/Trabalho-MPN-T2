@@ -1,0 +1,9 @@
+Possíveis Problemas no Processo de Manutenção
+
+#1 Eletricista da loja não disponível.
+#2 Material para o Eletricista não disponível. (difícil de ocorrer, pois o estoque esta sempre cheio)
+
+Soluções
+
+Para o problema #1: Repassar serviço para eletricista autônomo (terceirizar).
+Para o problema #2: Aprimoramento do gerenciamento de estoque, antecipação ao mercado.
