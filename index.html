@@ -37,7 +37,7 @@
             $(document).ready(function() {function filterPath(string) {return string .replace(/^\//,'') .replace(/(index|default).[a-zA-Z]{3,4}$/,'') .replace(/\/$/,''); } $('a[href*=#]').each(function() {if ( filterPath(location.pathname) == filterPath(this.pathname) && location.hostname == this.hostname && this.hash.replace(/#/,'') ) {var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']'); var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false; if ($target) {var targetOffset = $target.offset().top; $(this).click(function() {$('html, body').animate({scrollTop: targetOffset}, 300); return false; }); } } }); }); // ]]>
     </script>
 
-
+<!--
     <script type="text/javascript">
         $(document).ready(function(){
 
@@ -92,7 +92,7 @@
 
             // final da animaÃ§Ã£o
         });
-    </script>
+    </script>-->
 
 
 
@@ -255,14 +255,14 @@
             <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="vendas_button" class="btn btn-primary btn-lg" href="#as-is" role="button">Processo de Vendas</a>
+                    <a id="vendas_button" class="btn btn-primary btn-lg" target="_blank" href="./as-is/vendas/" role="button">Processo de Vendas</a>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="instalacao_button" class="btn btn-success btn-lg" href="#as-is" role="button">Processo de Instalação</a>
+                    <a id="instalacao_button" class="btn btn-success btn-lg" target="_blank" href="./as-is/instalacao/" role="button">Processo de Instalação</a>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="manutencao_button" class="btn btn-warning btn-lg" href="#as-is" role="button">Processo de Manutenção</a>
+                    <a id="manutencao_button" class="btn btn-warning btn-lg" target="_blank" href="./as-is/manutencao/" role="button">Processo de Manutenção</a>
                 </div>
 
             </div>
@@ -297,14 +297,14 @@
             <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="vendas_button_2" class="btn btn-info btn-lg" href="#to-be" role="button">Processo de Vendas</a>
+                    <a id="vendas_button_2" class="btn btn-info btn-lg" target="_blank" href="./to-be/vendas/" role="button">Processo de Vendas</a>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="instalacao_button_2" class="btn btn-danger btn-lg" href="#to-be" role="button">Processo de Instalação</a>
+                    <a id="instalacao_button_2" class="btn btn-danger btn-lg" target="_blank" href="./to-be/instalacao/" role="button">Processo de Instalação</a>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <a id="manutencao_button_2" class="btn btn-default btn-lg" href="#to-be" role="button">Processo de Manutenção</a>
+                    <a id="manutencao_button_2" class="btn btn-default btn-lg"target="_blank" href="./to-be/manutencao/" role="button">Processo de Manutenção</a>
                 </div>
             </div>
 
@@ -324,13 +324,14 @@
             </div>
 
         </div>
+
     </section>
 
 
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <span class="h4">Site desenvolvido por <a href="http://mateusgabi.tk" target="_blank">Mateus Gabi</a>. Using Github Pages and Bootstrap Framework.</span>
+                <span class="h4">Site desenvolvido por <a href="http://mateusgabi.tk" target="_blank">Mateus Gabi</a>. Using Github Pages and Bootstrap.</span>
             </div>
         </div>
     </footer>
