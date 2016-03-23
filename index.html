@@ -7,8 +7,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Trabalho Modelagem de Processos de Negócios - Grupo 3</title>
 
     <!-- metatags: http://www.w3schools.com/tags/tag_meta.asp -->
@@ -44,22 +44,48 @@
             $("#vendas_button").click(function(){
                 $("#vendas_button").addClass("active");
                 $("#asis_instalacao, #asis_manutencao").removeClass("active"); 
-                $("#asis_instalacao, #asis_manutencao").hide(500);
-                $("#asis_vendas").show(500);
+                $("#asis_instalacao, #asis_manutencao").hide();
+                $("#asis_vendas").show();
             });
             
             $("#instalacao_button").click(function(){
                 $("#instalacao_button").addClass("active");
                 $("#asis_vendas, #asis_manutencao").removeClass("active"); 
-                $("#asis_vendas, #asis_manutencao").hide(500);
-                $("#asis_instalacao").show(500);
+                $("#asis_vendas, #asis_manutencao").hide();
+                $("#asis_instalacao").show();
             });
             
             $("#manutencao_button").click(function(){
                 $("#manutencao_button").addClass("active");
                 $("#asis_instalacao, #asis_vendas").removeClass("active"); 
-                $("#asis_instalacao, #asis_vendas").hide(500);
-                $("#asis_manutencao").show(500);
+                $("#asis_instalacao, #asis_vendas").hide();
+                $("#asis_manutencao").show();
+            });
+            
+            
+            
+            //------------------------------
+
+           
+            $("#vendas_button_2").click(function(){
+                $("#vendas_button").addClass("active");
+                $("#tobe_instalacao, #tobe_manutencao").removeClass("active"); 
+                $("#tobe_instalacao, #tobe_manutencao").hide();
+                $("#tobe_vendas").show();
+            });
+            
+            $("#instalacao_button_2").click(function(){
+                $("#instalacao_button").addClass("active");
+                $("#tobe_vendas, #tobe_manutencao").removeClass("active"); 
+                $("#tobe_vendas, #tobe_manutencao").hide();
+                $("#tobe_instalacao").show();
+            });
+            
+            $("#manutencao_button_2").click(function(){
+                $("#manutencao_button").addClass("active");
+                $("#tobe_instalacao, #tobe_vendas").removeClass("active"); 
+                $("#tobe_instalacao, #tobe_vendas").hide();
+                $("#tobe_manutencao").show();
             });
 
            
@@ -78,13 +104,13 @@
     <header>
         <div class="container">
             <div class="navbar-default">
-                <!--<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar"
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar"
                 aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>-->
+                </button>
                 <a href="../Trabalho-MPN-T2/" class="navbar-brand">Modelagem de Processo de Negócios</a>
             </div>
             <nav id="bs-navbar" class="collapse navbar-collapse">
@@ -270,18 +296,33 @@
 
             <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a class="btn btn-info btn-lg" href="#" role="button">Processo de Vendas</a>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a id="vendas_button_2" class="btn btn-info btn-lg" href="#to-be" role="button">Processo de Vendas</a>
                 </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a class="btn btn-danger btn-lg" href="#" role="button">Processo de Instalação</a>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a id="instalacao_button_2" class="btn btn-danger btn-lg" href="#to-be" role="button">Processo de Instalação</a>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <a class="btn btn-default btn-lg" href="#" role="button">Processo de Manutenção</a>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a id="manutencao_button_2" class="btn btn-default btn-lg" href="#to-be" role="button">Processo de Manutenção</a>
                 </div>
-
             </div>
+
+            <div id="tobe_vendas" style="display:none;" class="row">
+                <!--<img width="100%" src="img/as-is_vendas.png" />-->
+                <iframe src="to-be/vendas/" border="0" width="100%" height="700px"></iframe>
+            </div>
+
+            <div id="tobe_instalacao" style="display:none;" class="row">
+                <!--<img width="100%" src="img/as-is_instalacao.png" />-->
+                <iframe src="to-be/instalacao/" border="0" width="100%" height="700px"></iframe>
+            </div>
+
+            <div id="tobe_manutencao" style="display:none;" class="row">
+                <!--<img width="100%" src="img/as-is_manutencao.png" />-->
+                <iframe src="to-be/manutencao/" border="0" width="100%" height="700px"></iframe>
+            </div>
+
         </div>
     </section>
 
